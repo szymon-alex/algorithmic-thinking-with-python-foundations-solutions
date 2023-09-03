@@ -11,3 +11,5 @@ print("Algorithm has finished.")
 for i in range(1, 11):
     if doors[i] is True:  # Or just if doors[i]:
         print(f"Door number {i} remains open.")
+
+        

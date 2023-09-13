@@ -21,6 +21,7 @@ graph = {
 
 
 unvisited_min_distances = {vertex: INF for vertex in graph}
+print(unvisited_min_distances)
 visited_vertices = {}
 current_vertex = "U"  # The start node.
 unvisited_min_distances[current_vertex] = 0
